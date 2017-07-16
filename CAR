@@ -1,0 +1,54 @@
+int x=0;
+int y=0;
+void setup()
+{
+  size(400,400);
+}
+void draw()
+{ 
+  background(#9CD0FA);
+  
+  strokeWeight(1);
+  stroke(#000000);
+  fill(#FA8DB3 );
+  rect(20,60,60,100);
+  fill(#FCE908 );
+  rect(25,80,15,15);
+  rect(60,80,15,15);
+  rect(25,130,15,15);
+  rect(60,130,15,15);
+  fill(#5F5DFA);
+  rect(100,40,60,100);
+  fill(#FCE908);
+  rect(105,60,15,15);
+  rect(140,60,15,15);
+  rect(105,110,15,15);
+  rect(140,110,15,15);
+  fill(#E1A3FC);
+  rect(180,20,60,100);
+  fill(#FCE908 );
+  rect(185,40,15,15);
+  rect(220,40,15,15);
+  rect(185,90,15,15);
+  rect(220,90,15,15);
+  fill(#E80C25);
+  rect(x,260,70,40);
+  fill(#020405);
+  rect(x+50,270,10,10);
+  ellipse(x+1,300,25,25);
+  ellipse(x+70,300,25,25);
+  x=x+2;
+  fill(#E80C25);
+  rect(y,210,70,40);
+  fill(#020405);
+  rect(y+50,220,10,10);
+  ellipse(y+1,250,25,25);
+  ellipse(y+70,250,25,25);
+  y=y+1;
+  stroke(#3B2C10);
+  strokeWeight (4);
+  line(0,200,400,200);
+  line(0,350,400,350);
+  
+  
+}
